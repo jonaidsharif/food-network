@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.salmon-color {
+    color: chocolate;
+}
+
+p {
+    color: dimgray;
+    font-size: 20px;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+    margin-left: 10%;
+    padding-left: 5%;
+}
+
+.first-part {
+    height: 500px;
+    display: flex;
+    padding-bottom: 150px;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 20px 40px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 50px;
+}
