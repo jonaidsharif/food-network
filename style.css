@@ -23,7 +23,7 @@ p {
     text-align: justify;
 }
 
-section {
+.flexible-container {
     display: flex;
     height: 500px;
     margin-bottom: 100px;
@@ -51,4 +51,107 @@ section {
 
 .about-container {
     background-image: url(images/shapes/7.png);
+}
+
+.recipies-name {
+    font-size: 40px;
+    text-align: center;
+}
+
+.recipies-des {
+    font-size: 15px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.description {
+    color: #3c3c3c;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.section-title,
+.description {
+    text-align: center;
+}
+
+.recipies-topic {
+    text-align: center;
+    margin-left: 30%;
+}
+
+.recipies .flex {
+    padding: 0;
+    margin: 20px;
+}
+
+.recipies-item {
+    width: 25%;
+    border: 14px solid #fff;
+    border-radius: 24px;
+    box-shadow: 0 0 15px #0f0f0f59;
+    background-color: #fff;
+}
+
+.recipies-item img {
+    border-radius: 12px;
+    height: 250px;
+}
+
+.recipies-item a {
+    text-decoration: none;
+}
+
+.recipies-item .recipies-title {
+    font-size: 22px;
+    color: #38383a;
+}
+
+.social-container {
+    text-align: center;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 19%;
+    margin-right: 21%;
+    margin-bottom: 3%;
+    padding-left: 9%;
+    padding-bottom: 3%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px grey;
+}
+
+.social {
+    margin-right: 17%;
+    padding-top: 5%;
+}
+
+.social h1 {
+    font-weight: 900;
+}
+
+.social p {
+    font-size: 10px;
+}
+
+.footer-container {
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+    background-color: #0a121a;
+    height: 150px;
+}
+
+.footer-container p {
+    text-align: center;
+}
+
+.color-yellow {
+    color: #FBA24F;
 }
